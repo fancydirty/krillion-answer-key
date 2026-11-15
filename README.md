@@ -5,7 +5,7 @@ The script and workflow behind [krillionanswerkey.com](https://krillionanswerkey
 Krillion publishes one answer sheet a day and keeps only the current day public, so the site has to fetch it shortly after the game resets (midnight US Eastern), save it, and republish.
 
 - `fetch.mjs` fetches the day's sheet (about 7.5 MB, over 100,000 accepted answers), keeps the 100-point answer, the small tiers in full and an evenly spread sample of the large tiers, and appends the day to a JSON file. `--probe` fetches and reports without saving.
-- `.github/workflows/daily.example.yml` is the schedule: several runs after 04:00 and 05:00 UTC to cover daylight saving and late starts; a run that finds the day already saved does nothing.
+- `examples/daily.example.yml` is the schedule: several runs after 04:00 and 05:00 UTC to cover daylight saving and late starts; a run that finds the day already saved does nothing.
 
 The site itself is a static export; every page is generated from that JSON file.
 
