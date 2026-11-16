@@ -11,7 +11,9 @@ The site itself is a static export; every page is generated from that JSON file.
 
 - Today's answers: https://krillionanswerkey.com/
 - How Krillion scoring works: https://krillionanswerkey.com/scoring
-- When Krillion resets: https://krillionanswerkey.com/reset-time
+- When Krillion resets (midnight US Eastern, with a live countdown): https://krillionanswerkey.com/reset-time
+- Answer checker, which looks an answer up in the day's full sheet: https://krillionanswerkey.com/answer-checker
+- Archive of earlier days: https://krillionanswerkey.com/archive
 
 Not affiliated with Krillion or its developer. Paths inside the two files are those of the site's private repository; adjust them to use the files elsewhere.
 
